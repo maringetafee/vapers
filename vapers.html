@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vapers - Bengalaspain</title>
+    <style>
+        /* Estilos globales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+            color: #333;
+        }
+
+        /* Estilos del header */
+        header {
+            background-color: #3a5b83; /* Azul oscuro */
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header nav {
+            margin-top: 10px;
+        }
+
+        header nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        header nav a:hover {
+            color: #f8b400; /* Naranja suave */
+        }
+
+        /* Estilo del banner */
+        .banner {
+            background-color: #6a7fa0; /* Morado suave */
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .banner h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        .banner p {
+            font-size: 1.2rem;
+        }
+
+        /* Estilo de los productos */
+        .productos {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            padding: 40px 20px;
+        }
+
+        .producto {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+            padding: 20px;
+            transition: transform 0.3s;
+        }
+
+        .producto:hover {
+            transform: scale(1.05);
+        }
+
+        .producto img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .producto h3 {
+            margin: 15px 0;
+            font-size: 1.5rem;
+            color: #3a5b83;
+        }
+
+        .producto p {
+            font-size: 1.2rem;
+            color: #666;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #3a5b83;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 5px 0;
+            font-size: 1rem;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Bengala Vapers</h1>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Productos</a>
+            <a href="#">Sobre Nosotros</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- Banner -->
+    <section class="banner">
+        <h1>Explora Nuestros Vapers</h1>
+        <p>Encuentra los mejores vapers con una amplia gama de sabores y estilos.</p>
+    </section>
+
+    <!-- Productos -->
+    <section class="productos">
+        <div class="producto">
+            <img src="https://via.placeholder.com/300x400" alt="Vaper 1">
+            <h3>Vaper Modelo 1</h3>
+            <p>Descripción breve del vaper.</p>
+        </div>
+        <div class="producto">
+            <img src="https://via.placeholder.com/300x400" alt="Vaper 2">
+            <h3>Vaper Modelo 2</h3>
+            <p>Descripción breve del vaper.</p>
+        </div>
+        <div class="producto">
+            <img src="https://via.placeholder.com/300x400" alt="Vaper 3">
+            <h3>Vaper Modelo 3</h3>
+            <p>Descripción breve del vaper.</p>
+        </div>
+        <div class="producto">
+            <img src="https://via.placeholder.com/300x400" alt="Vaper 4">
+            <h3>Vaper Modelo 4</h3>
+            <p>Descripción breve del vaper.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Bengalaspain</p>
+        <p>Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
